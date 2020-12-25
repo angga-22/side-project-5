@@ -1,0 +1,21 @@
+.navbar{
+    background-color: burlywood !important;
+    height: 100%; 
+    display: flex;
+    flex-direction: column; 
+    padding-left: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold !important;
+    color: black;
+    .link{
+        &:hover{
+            text-decoration: none !important;
+           
+        }
+        color: black;
+    }
+}
+
+.links:hover{
+    text-decoration: none;
+}
